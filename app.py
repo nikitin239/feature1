@@ -7,6 +7,8 @@ app = Flask(__name__)
 def hello_world():  # put application's code here
     return 'Hello World!'
 
+def sum(a,b):
+    return a+b
 
 if __name__ == '__main__':
     app.run(port=8888, debug=True)
